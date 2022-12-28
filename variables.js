@@ -14,10 +14,20 @@
 // console.log(true + false);
 // console.log("java " +"Script");
 
-var myName = null;
-console.log(myName);
-console.log(typeof(null));
+// var myName = null;
+// console.log(myName);
+// console.log(typeof(null));
 
-var iAmUseless = null
-console.log(typeof(iAmUseless));
-console.log(typeof(iAmUseless));
+// var iAmUseless = null
+// console.log(typeof(iAmUseless));
+// console.log(typeof(iAmUseless));
+
+var myPhoneNumber = 21456987;
+var myName = "nasim";
+
+console.log(isNaN(myPhoneNumber));
+console.log(isNaN(myName));
+
+if(isNaN(myName)){
+    console.log(Please enter valid phone no);
+}
