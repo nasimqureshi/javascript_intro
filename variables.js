@@ -34,7 +34,13 @@
 
 
 
-console.log(NaN === NaN);
-console.log(Number.NaN === NaN);
-console.log(isNaN(NaN));
-console.log(Number.isNaN(NaN));
+// console.log(NaN === NaN);
+// console.log(Number.NaN === NaN);
+// console.log(isNaN(NaN));
+// console.log(Number.isNaN(NaN));
+
+var num = 15;
+var newNum = ++num + 5;
+
+console.log(num);
+console.log(newNum);
