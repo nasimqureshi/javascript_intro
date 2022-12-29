@@ -22,12 +22,19 @@
 // console.log(typeof(iAmUseless));
 // console.log(typeof(iAmUseless));
 
-var myPhoneNumber = 21456987;
-var myName = "nasim";
+// var myPhoneNumber = 21456987;
+// var myName = "nasim";
 
-console.log(isNaN(myPhoneNumber));
-console.log(isNaN(myName));
+// console.log(isNaN(myPhoneNumber));
+// console.log(isNaN(myName));
 
-if(isNaN(myName)){
-    console.log(Please enter valid phone no);
-}
+// if(isNaN(myName)){
+//     console.log(Please enter valid phone no);
+// }
+
+
+
+console.log(NaN === NaN);
+console.log(Number.NaN === NaN);
+console.log(isNaN(NaN));
+console.log(Number.isNaN(NaN));
