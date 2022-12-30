@@ -67,11 +67,29 @@
 
 
 // Conditional (ternary) operator
-var age = 21;
-if (age > 18){
-    console.log("You are eligible to vote");
+// var age = 21;
+// if (age > 18){
+//     console.log("You are eligible to vote");
+// } else {
+//     console.log("You are not eligible to vote");
+// }
+
+// ternary operator
+var age = 19;
+console.log((age >= 18)? "you can vote" : "you can not vote");
+
+/// Find the area of circle, triangle and rectangle.
+var area = 'rectangle';
+var PI = 3.142, l=5, w=4, r=3;
+
+if(area == 'circle'){
+    console.log("The area of the circle is: " + PI*r**2);
+} else if (area == "triangle") {
+    console.log("The are of triangle is : " + (l*w)/2);
+} else if(area == "rectangle"){
+    console.log("The area of rectangle : " + l*w);
 } else {
-    console.log("You are not eligible to vote");
+    console.log("Please enter the valid data");
 }
 
 
