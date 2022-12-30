@@ -57,11 +57,21 @@
 
 // Finding a leap year program
 
-var year = 2021;
-if(year % 4){
-    console.log("The year "+ year + "is a leap year")
-}else {
-    console.log("The year " + year   +  "   is  not a leap year");
-    console.log("The year   " +    year   +  "is  not a leap year");
+// var year = 2021;
+// if(year % 4){
+//     console.log("The year "+ year + "is a leap year")
+// }else {
+//     console.log("The year " + year   +  "   is  not a leap year");
+//     console.log("The year   " +    year   +  "is  not a leap year");
+// }
+
+
+// Conditional (ternary) operator
+var age = 21;
+if (age > 18){
+    console.log("You are eligible to vote");
+} else {
+    console.log("You are not eligible to vote");
 }
+
 
