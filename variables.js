@@ -45,10 +45,23 @@
 // console.log(num);
 // console.log(newNum);
 
-var tomr = "sunny";
 
-if(tomr == "rain"){
-    console.log("Take rain coat");
-}else{
-    console.log("No rain coat");
+// // If else statement
+// var tomr = "sunny";
+
+// if(tomr == "rain"){
+//     console.log("Take rain coat");
+// }else{
+//     console.log("No rain coat");
+// }
+
+// Finding a leap year program
+
+var year = 2021;
+if(year % 4){
+    console.log("The year "+ year + "is a leap year")
+}else {
+    console.log("The year " + year   +  "   is  not a leap year");
+    console.log("The year   " +    year   +  "is  not a leap year");
 }
+
