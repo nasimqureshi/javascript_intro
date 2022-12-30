@@ -39,8 +39,16 @@
 // console.log(isNaN(NaN));
 // console.log(Number.isNaN(NaN));
 
-var num = 15;
-var newNum = ++num + 5;
+// var num = 15;
+// var newNum = ++num + 5;
 
-console.log(num);
-console.log(newNum);
+// console.log(num);
+// console.log(newNum);
+
+var tomr = "sunny";
+
+if(tomr == "rain"){
+    console.log("Take rain coat");
+}else{
+    console.log("No rain coat");
+}
