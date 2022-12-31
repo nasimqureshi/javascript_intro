@@ -94,19 +94,34 @@
 
 
 
-While loop
-var num = 1;
-while(num < 10){
-    console.log(num);
-    num++;
+// While loop
+// var num = 1;
+// while(num < 10){
+//     console.log(num);
+//     num++;
+// }
+
+// // Do-While loop
+
+// var num = 0;
+// do{
+//     console.log(num);
+//     num++;
+// }
+// while(num < 10);
+
+
+// For Loop
+for (var num = 10;
+     num < 10; 
+     num++ ){
+        console.log(num)
+     }
+
+// Table of 9
+for(var num=1; num < 10; num++) {
+    var tableOf = 12;
+    console.log(tableOf + " * " + num + " = " + tableOf * num);
 }
 
-// Do-While loop
-
-var num = 0;
-do{
-    console.log(num);
-    num++;
-}
-while(num < 10);
 
