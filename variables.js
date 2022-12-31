@@ -140,17 +140,39 @@
 // var funExp = sum(5, 15);
 
 
-// Return Value
-function sum(a, b){
-    return total = a + b;
-}
-var funExp = sum(33, 65);
-console.log('The sum of tow given number is: ' + funExp);
-
-// Anonymous Function
-
-var funExp = function(a, b){
-    return total = a + b;
-}
-console.log(funExp(67, 54));
+// // Return Value
+// function sum(a, b){
+//     return total = a + b;
+// }
+// var funExp = sum(33, 65);
 // console.log('The sum of tow given number is: ' + funExp);
+
+// // Anonymous Function
+
+// var funExp = function(a, b){
+//     return total = a + b;
+// }
+// console.log(funExp(67, 54));
+// // console.log('The sum of tow given number is: ' + funExp);
+
+
+// ES6
+function biodat(){
+    var myFirstName = "Nasim";
+    console.log(myFirstName);
+
+    if(true){
+        var myLastName = "Qureshi";
+        console.log('inner' + myFirstName);
+        console.log('inner' + myLastName);
+    }
+    console.log('innerOuter' + myLastName);
+}
+biodat();
+
+// Template Literals
+ for(let num =1; num < 10; num++){
+    let tableOf = 12;
+    console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+ }
+    
