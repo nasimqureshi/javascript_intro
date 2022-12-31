@@ -157,22 +157,39 @@
 
 
 // ES6
-function biodat(){
-    var myFirstName = "Nasim";
-    console.log(myFirstName);
+// function biodat(){
+//     var myFirstName = "Nasim";
+//     console.log(myFirstName);
 
-    if(true){
-        var myLastName = "Qureshi";
-        console.log('inner' + myFirstName);
-        console.log('inner' + myLastName);
-    }
-    console.log('innerOuter' + myLastName);
-}
-biodat();
+//     if(true){
+//         var myLastName = "Qureshi";
+//         console.log('inner' + myFirstName);
+//         console.log('inner' + myLastName);
+//     }
+//     console.log('innerOuter' + myLastName);
+// }
+// biodat();
 
-// Template Literals
- for(let num =1; num < 10; num++){
-    let tableOf = 12;
-    console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+// // Template Literals
+//  for(let num =1; num < 10; num++){
+//     let tableOf = 12;
+//     console.log(`${tableOf} * ${num} = ${tableOf * num}`);
+//  } 
+
+ function mult(a, b){
+    return a * b;
  }
+ console.log(mult(6,7));
+
+ // Fat Arrow Function
+ const sum = () => {
+    let a = 5; b = 6;
+    let sum = a + b;
+    return `the some of two numbers is ${sum}`;
+ }
+ console.log(sum());
+/////////////////////////////////////////////////////////////////
+
+const sum = () => `The sum of two given numbers is ${(a = 5) + (b = 9)}`;
+console.log(sum());
     
