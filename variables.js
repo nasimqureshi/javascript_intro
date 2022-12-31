@@ -124,11 +124,33 @@
 //     console.log(tableOf + " * " + num + " = " + tableOf * num);
 // }
 
-function sum(a, b) {
-    var total = a + b;
-    console.log(total);
-}
-sum();
-sum(20, 30)
-sum(60, 34);
+// function sum(a, b) {
+//     var total = a + b;
+//     console.log(total);
+// }
+// sum();
+// sum(20, 30)
+// sum(60, 34);
 
+// function expression
+// function sum(a , b){
+//     var total = a + b;
+//     console.log(total);
+// }
+// var funExp = sum(5, 15);
+
+
+// Return Value
+function sum(a, b){
+    return total = a + b;
+}
+var funExp = sum(33, 65);
+console.log('The sum of tow given number is: ' + funExp);
+
+// Anonymous Function
+
+var funExp = function(a, b){
+    return total = a + b;
+}
+console.log(funExp(67, 54));
+// console.log('The sum of tow given number is: ' + funExp);
