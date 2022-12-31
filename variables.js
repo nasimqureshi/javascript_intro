@@ -112,16 +112,23 @@
 
 
 // For Loop
-for (var num = 10;
-     num < 10; 
-     num++ ){
-        console.log(num)
-     }
+// for (var num = 10;
+//      num < 10; 
+//      num++ ){
+//         console.log(num)
+//      }
 
-// Table of 9
-for(var num=1; num < 10; num++) {
-    var tableOf = 12;
-    console.log(tableOf + " * " + num + " = " + tableOf * num);
+// // Table of 9
+// for(var num=1; num < 11; num++) {
+//     var tableOf = 12;
+//     console.log(tableOf + " * " + num + " = " + tableOf * num);
+// }
+
+function sum(a, b) {
+    var total = a + b;
+    console.log(total);
 }
-
+sum();
+sum(20, 30)
+sum(60, 34);
 
