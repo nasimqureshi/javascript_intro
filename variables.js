@@ -198,3 +198,4 @@
 
 var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
 console.log(myFriends[3]);
+console.log(myFriends.length);
