@@ -229,9 +229,23 @@
 
 //Array Subsection 4 Perform CURD
 
-const animals = ['sheep', 'goats', 'cows']
-animals.push('checke');
-console.log(animals); 
+// const animals = ['sheep', 'goats', 'cows']
+// animals.push('checke');
+// console.log(animals); 
 
-animals.push('cats','bufalo','dog');
-console.log(animals);
+// animals.push('cats','bufalo','dog');
+// console.log(animals);
+
+
+// To find the sqare root of each element in an array.
+
+
+let Arr = [2, 3, 4, 6, 8];
+let arr2 = arr.map((curElem) => curElem* 2).filers((curElem) => 10);
+console.log(arr2);
+
+let arr3 = [5, 6, 2]; 
+let sum = arr3.reduce((accumulator, curElem, index, arr) => {
+    return accumulator *= curElem;
+    console.log(sum);
+})
