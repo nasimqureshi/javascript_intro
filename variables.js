@@ -194,30 +194,44 @@
 // console.log(sum());
     
 
-// Arrays
+// // Arrays
 
-var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
-console.log(myFriends[3]);
-console.log(myFriends.length);
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// console.log(myFriends[3]);
+// console.log(myFriends.length);
 
-var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
-for( var i = 0; i < myFriends.length; i++){
-   console.log(myFriends[i]);
-}
-//  Using For in loop
-var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
-for(let elements in myFriends){
-   console.log(elements);
-}
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// for( var i = 0; i < myFriends.length; i++){
+//    console.log(myFriends[i]);
+// }
+// //  Using For in loop
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// for(let elements in myFriends){
+//    console.log(elements);
+// }
 
-// Using For Of loop
-var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
-for (let elements of myFriends){
-   console.log(elements);
-}
+// // Using For Of loop
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// for (let elements of myFriends){
+//    console.log(elements);
+// }
 
-// Array.prototype.forEach()
-var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
-myFriends.forEach(function(elements, index, array){
-   console.log(elements + " index : " + index + " " + array);
-});
+// // Array.prototype.forEach()
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// myFriends.forEach(function(elements, index, array){
+//    console.log(elements + " index : " + index + " " + array);
+// });
+
+// var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+// myFriends.forEach((elements, index, array) => {
+//    console.log(elements + " index : " + index + " " + array);
+// });
+
+//Array Subsection 4 Perform CURD
+
+const animals = ['sheep', 'goats', 'cows']
+animals.push('checke');
+console.log(animals); 
+
+animals.push('cats','bufalo','dog');
+console.log(animals);
