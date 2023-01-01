@@ -199,3 +199,8 @@
 var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
 console.log(myFriends[3]);
 console.log(myFriends.length);
+
+var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+for( var i = 0; i < myFriends.length; i++){
+   console.log(myFriends[0]);
+}
