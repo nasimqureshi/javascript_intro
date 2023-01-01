@@ -176,20 +176,25 @@
 //     console.log(`${tableOf} * ${num} = ${tableOf * num}`);
 //  } 
 
- function mult(a, b){
-    return a * b;
- }
- console.log(mult(6,7));
+//  function mult(a, b){
+//     return a * b;
+//  }
+//  console.log(mult(6,7));
 
- // Fat Arrow Function
- const sum = () => {
-    let a = 5; b = 6;
-    let sum = a + b;
-    return `the some of two numbers is ${sum}`;
- }
- console.log(sum());
-/////////////////////////////////////////////////////////////////
+//  // Fat Arrow Function
+//  const sum = () => {
+//     let a = 5; b = 6;
+//     let sum = a + b;
+//     return `the some of two numbers is ${sum}`;
+//  }
+//  console.log(sum());
+// /////////////////////////////////////////////////////////////////
 
-const sum = () => `The sum of two given numbers is ${(a = 5) + (b = 9)}`;
-console.log(sum());
+// const sum = () => `The sum of two given numbers is ${(a = 5) + (b = 9)}`;
+// console.log(sum());
     
+
+// Arrays
+
+var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+console.log(myFriends[3]);
