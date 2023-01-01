@@ -209,3 +209,15 @@ var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
 for(let elements in myFriends){
    console.log(elements);
 }
+
+// Using For Of loop
+var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+for (let elements of myFriends){
+   console.log(elements);
+}
+
+// Array.prototype.forEach()
+var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+myFriends.forEach(function(elements, index, array){
+   console.log(elements + " index : " + index + " " + array);
+});
