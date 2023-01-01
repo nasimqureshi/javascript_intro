@@ -202,5 +202,10 @@ console.log(myFriends.length);
 
 var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
 for( var i = 0; i < myFriends.length; i++){
-   console.log(myFriends[0]);
+   console.log(myFriends[i]);
+}
+//  Using For in loop
+var myFriends = ['nvasim', 'qamar', 'samreen', 'hira'];
+for(let elements in myFriends){
+   console.log(elements);
 }
