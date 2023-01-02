@@ -240,12 +240,52 @@
 // To find the sqare root of each element in an array.
 
 
-let Arr = [2, 3, 4, 6, 8];
-let arr2 = arr.map((curElem) => curElem* 2).filers((curElem) => 10);
-console.log(arr2);
+// let Arr = [2, 3, 4, 6, 8];
+// let arr = arr.map((curElem) => curElem* 2).filers((curElem) => 10);
+// console.log(arr2);
 
-let arr3 = [5, 6, 2]; 
-let sum = arr3.reduce((accumulator, curElem, index, arr) => {
-    return accumulator *= curElem;
-    console.log(sum);
-})
+// let arr = [5, 6, 2]; 
+// let sum = arr3.reduce((accumulator, curElem) => {
+//     return accumulator *= curElem;
+   
+// })
+// console.log(sum);
+
+// String Object
+// const myBioData = 'I am Nasim Uddin Qureshi';
+// console.log(myBioData.lastIndexOf('u', 6));
+
+
+// const myBioData = 'I am Nasim Uddin Qureshi';
+// let sData = myBioData.search('uddin');
+// console.log(sData);
+
+
+// Date and Time.
+// let currentDate = new Date();
+// console.log(new Date().toLocaleString());
+// // console.log(currentDate);
+
+// console.log(Date.now());
+
+// // How to set the indivisual time.
+// let curTime = new Date();
+// console.log(curTime.setTime());
+// console.log(curTime.setHours(5));
+// console.log(curTime.setMinutes(5));
+// console.log(curTime.setSecondary(5));
+// console.log(curTime.setMilliseconds(5));
+
+
+// Math object
+console.log(Math.PI);
+
+let num = 11.45489;
+console.log(Math.round(num));
+
+console.log(Math.pow(2, 3));
+console.log(2 ** 4);
+
+console.log(Math.sqrt(25));
+console.log(Math.sqrt(256));
+console.log(Math.sqrt(66));
