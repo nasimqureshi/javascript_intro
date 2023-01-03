@@ -296,13 +296,29 @@
 ///////////////////////////////////////////////////////////////////===============================================================================
 // Specified time intervals.
 
-const myName = document.querySelector('#showMyName');
-const btn = document.querySelector('#btn');
+// const myName = document.querySelector('#showMyName');
+// const btn = document.querySelector('#btn');
 
-const showMyName = () => {
-    setTimeout(() => {
-        showMyName.innerHTML = "Nasim Qureshi":
+// const showMyName = () => {
+//     setTimeout(() => {
+//         myName.innerHTML = "Nasim Qureshi":
 
-    }, 1000)
+//     }, 1000)
+// }
+// btn.addEventListener('click', showMyName);
+//*************************************************************************************************
+
+// Object Oriented Programming
+
+let bioDate = {
+    name : "Nasim",
+    age : 69, 
+    getData : function(){
+        console.log('My name is ${bioDate.name} and my age is ${bioData.age}');
+    }
+
 }
-btn.addEventListener('click', showMyName);
+console.log(bioDate.name);
+console.log(bioDate.age);
+console.log(bioDate.getData());
+bioDate.getData();
