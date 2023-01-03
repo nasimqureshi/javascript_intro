@@ -278,14 +278,31 @@
 
 
 // Math object
-console.log(Math.PI);
+// console.log(Math.PI);
 
-let num = 11.45489;
-console.log(Math.round(num));
+// let num = 11.45489;
+// console.log(Math.round(num));
 
-console.log(Math.pow(2, 3));
-console.log(2 ** 4);
+// console.log(Math.pow(2, 3));
+// console.log(2 ** 4);
 
-console.log(Math.sqrt(25));
-console.log(Math.sqrt(256));
-console.log(Math.sqrt(66));
+// console.log(Math.sqrt(25));
+// console.log(Math.sqrt(256));
+// console.log(Math.sqrt(66));
+
+
+// console.log(Math.floor(Math.random()*10));
+
+///////////////////////////////////////////////////////////////////===============================================================================
+// Specified time intervals.
+
+const myName = document.querySelector('#showMyName');
+const btn = document.querySelector('#btn');
+
+const showMyName = () => {
+    setTimeout(() => {
+        showMyName.innerHTML = "Nasim Qureshi":
+
+    }, 1000)
+}
+btn.addEventListener('click', showMyName);

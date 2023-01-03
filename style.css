@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif; 
+    background: #2a364f;
+}
+h1{
+    text-align: center;
+    color: rgba(255, 255, 266, 0.8);
+}
+.credit {
+    text-align: center;
+    color: rgba(255, 255, 266, 0.4);
+}
+.content {
+    padding-top: 45px;
+}
