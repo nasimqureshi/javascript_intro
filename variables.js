@@ -313,8 +313,8 @@
 let bioData = {
     myName : "Nasim",
     myAge : 69,
-    getData : function(){
-        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`)
+    getData (){
+        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge} years`)
     }
 }
 bioData.getData();
