@@ -310,11 +310,16 @@
 
 // Object Oriented Programming
 
-let bioData = {
-    myName : "Nasim",
-    myAge : 69,
-    getData (){
-        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge} years`)
-    }
-}
-bioData.getData();
+// let bioData = {
+//     myName : "Nasim",
+//     myAge : 69,
+//     getData (){
+//         console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge} years`)
+//     }
+// }
+// bioData.getData();
+
+
+const myBioData = ['Nasim', 'Qureshi', 69];
+let [name, lastName, age]= myBioData;
+console.log(name);
