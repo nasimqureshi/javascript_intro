@@ -310,15 +310,11 @@
 
 // Object Oriented Programming
 
-let bioDate = {
-    name : "Nasim",
-    age : 69, 
+let bioData = {
+    myName : "Nasim",
+    myAge : 69,
     getData : function(){
-        console.log('My name is ${bioDate.name} and my age is ${bioData.age}');
+        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`)
     }
-
 }
-console.log(bioDate.name);
-console.log(bioDate.age);
-console.log(bioDate.getData());
-bioDate.getData();
+bioData.getData();
